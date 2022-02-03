@@ -154,7 +154,6 @@ func TestRunEventSecrets(t *testing.T) {
 	}
 
 	log.SetLevel(log.DebugLevel)
-	ctx := context.Background()
 
 	platforms := map[string]string{
 		"ubuntu-latest": baseImage,
@@ -195,7 +194,6 @@ func TestRunEventPullRequest(t *testing.T) {
 	}
 
 	log.SetLevel(log.DebugLevel)
-	ctx := context.Background()
 
 	platforms := map[string]string{
 		"ubuntu-latest": baseImage,
